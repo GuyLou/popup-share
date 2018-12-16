@@ -23,7 +23,7 @@ $( document ).ready(function() {
     		"linkbase":"https://www.facebook.com/sharer/sharer.php?u="  		
     	}
     };
-    bar += '<div id="popup-share" style="display: none;"><div class="social-icons" style="text-align: center; font-weight: 300;"><ul style="list-style: none; margin: 0px 0px 5px 0px; padding: 2px; float: right;">' + '\n';
+    bar += '<div id="popup-share-bar" style="display: none;"><div class="social-icons" style="text-align: center; font-weight: 300;"><ul style="list-style: none; margin: 0px 0px 5px 0px; padding: 2px; float: right;">' + '\n';
 
     for (var key in socials) {
     	bar += '<li style="display: inline-block; zoom: 1; *display: inline; vertical-align: middle;"><a href="' + socials[key].linkbase + sharelink + '" class="btn text-' + socials[key].bootstrap + '"><i class="fa fa-' + socials[key].fa + '"></i></a></li>';
@@ -34,12 +34,12 @@ $( document ).ready(function() {
     $("body").append(bar);
     
 
-$('.popper').popover({
+$('.popup-share').popover({
   placement: 'right',
   container: 'body',
   html: true,
   content: function() {
-    return document.getElementById('popup-share').innerHTML;
+    return document.getElementById('popup-share-bar').innerHTML;
 
   }
 });
