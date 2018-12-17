@@ -25,10 +25,10 @@ simply place the popup-share.js in your javascript folder, and
 popup-share requires a few libraries to work:
 JQuery, bootstrap, font-awesome and popper.js
 
-https://jquery.com/
-https://getbootstrap.com/
-https://fontawesome.com/
-https://popper.js.org/
+https://jquery.com/  
+https://getbootstrap.com/  
+https://fontawesome.com/  
+https://popper.js.org/  
 
 
 ## example
