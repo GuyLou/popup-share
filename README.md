@@ -17,7 +17,9 @@ load all needed libraries including popup-share:
 
 set the class "popup-share" inside any clickable tag, and you're all done:
 <img src="neededcode.png">
-
+```html
+<button class="btn text-danger popup-share-square"><i class="fa fa-share"></i></button>
+```
 
 simply place the popup-share.js in your javascript folder, and 
 
