@@ -1,6 +1,17 @@
 $( document ).ready(function() {
     var bar = '';
     var sharelink = window.location.href;
+   /*
+    var popsocs = ["email","facebook","whatsapp","twitter"];
+    if (typeof ppshparams !== 'undefined') {
+        if (ppshparams.hasOwnProperty('sharelink')) {
+          var sharelink = ppshparams.sharelink;
+        }
+        if (ppshparams.hasOwnProperty('popsocs')) {
+          var popsocs = ppshparams.popsocs;
+        }
+    }
+    */
     var socials = {
       	"email": {
     		"bootstrap":"warning",
